@@ -11,8 +11,8 @@ ms.technology: .net-core-technologies
 ms.devlang: dotnet
 ms.assetid: 03c28597-7e73-46d6-a9c3-f9cb55642739
 translationtype: Human Translation
-ms.sourcegitcommit: 9b3c2cf0bf2d7e93fb643caa55fd41c75ab9f657
-ms.openlocfilehash: 0702c53ddaec7ae391dfa584ae13550c8fa64e6d
+ms.sourcegitcommit: 1cb9e19ec9c9c0764244aeec5f62b812cbd91aef
+ms.openlocfilehash: be658d2c660aff736eceffe23757c13154e78582
 
 ---
  
@@ -95,6 +95,8 @@ npm install -g yo generator-aspnet generator-docker
 ## <a name="creating-the-web-api-application"></a>Web API 응용 프로그램 만들기
 
 참조 지점으로 응용 프로그램을 컨테이너화하기 전에 먼저 로컬로 응용 프로그램을 실행합니다. 
+
+완성된 응용 프로그램은 [GitHub의 dotnet/core-docs 리포지토리](https://github.com/dotnet/docs/tree/master/samples/core/docker/building-net-docker-images)에 있습니다.
 
 응용 프로그램에 대한 디렉터리를 만듭니다.
 
@@ -221,6 +223,6 @@ Docker 생성기를 사용하여 Web API 응용 프로그램에 필요한 파일
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 
