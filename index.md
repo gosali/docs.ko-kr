@@ -1,6 +1,6 @@
 ---
 layout: HubPage
-title: ".NET Core 설명서"
+title: ".NET 설명서"
 description: 
 keywords: 
 author: 
@@ -13,195 +13,651 @@ ms.technology:
 ms.suite: 
 ms.assetid: 
 translationtype: Human Translation
-ms.sourcegitcommit: 1c68e4bcceffb895a758a6f8abdda41cdafc3590
-ms.openlocfilehash: b9abce6984193957930ebf1ba74822b4cdfe6789
+ms.sourcegitcommit: 86a7089d110ace6ff2ac627659aa9a5e2416d601
+ms.openlocfilehash: 3e10bcf4d8244be16739c1f1e6db4ea8ce175b89
 
 ---
-
-<article id="main">
-    <section id="hero-content" class="graph">
-        <h1>.NET 설명서</h1>
-        <h2>.NET을 시작합니다. 기본 개념, 시작 지침, 자습서 및 샘플을 포함하는 .NET Core, C#, F# 및 Visual Basic에 대한 기술 설명서의 홈입니다. 어려운 문제에 대한 답변을 검색하고 처음으로 .NET에 대해 배울 수 있습니다.</h2>
-    </section>
-    <aside class="alert section-border">
-        <p>지금 .NET Core 다운로드</p>
-        <ol class="action-list">
-            <li><a href="https://dot.net/core" class="button-bordered button-translucent">바로 사용하세요.</a></li>
-        </ol>
-    </aside>
-    <section id="featured" class="container">
-        <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> 추천 콘텐츠</h2>
-        <div class="features row">
-            <ul class="column-half">
-                <li><a href="docs/core/index.md">.NET Core 시작</a></li>
-            </ul>
-            <ul class="column-half">
-                <li><a href="https://docs.asp.net">ASP.NET Core 시작</a></li>
-            </ul>
-        </div>
-    </section>
-    <div id="journeys">
-        <section class="container">
-            <ul class="journeys-list">
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                        <div class="title column-third">
-                            <span class="icon icon-tip"></span>
-                            <p>플랫폼 알아보기</p>
+<div id="main" class="v2">
+    <div class="container">
+        <ul class="cardsY panelContent featuredContent">
+            <li>
+                <a href="https://www.microsoft.com/net/tutorials/csharp/getting-started">
+                    <div class="cardSize">
+                        <div class="cardPadding">
+                            <div class="card">
+                                <div class="cardImageOuter">
+                                    <div class="cardImage">
+                                        <img src="./docs/images/hub/featured-1.png" alt="" />
+                                    </div>
+                                </div>
+                                <div class="cardText">
+                                    <h3>C 시작#</h3>
+                                </div>
+                            </div>
                         </div>
-                        <p class="description column-two-thirds">
-.NET Core를 시작하고 .NET 플랫폼의 기본 사항에 대해 알아봅니다.
-                        </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
-                                <a href="docs/welcome.md">
-                                    <h3>.NET Core 설명서</h3>
-                                    <p>.NET Core 개념과 언어 구문에 대해 알아봅니다.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="api/index.md">
-                                    <h3>API 참조</h3>
-                                    <p>네임스페이스별로 구성된 .NET API를 찾아봅니다.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="docs/core/index.md">
-                                    <h3>.NET Core 시작</h3>
-                                    <p>명령줄 또는 Visual Studio에서 .NET Core 콘솔 응용 프로그램을 빌드하는 방법에 대해 알아봅니다.</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
-                </li>
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                        <div class="title column-third">
-                            <span class="icon icon-tip"></span>
-                            <p>웹 &amp; 클라우드</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="/dotnet/core/api/">
+                    <div class="cardSize">
+                        <div class="cardPadding">
+                            <div class="card">
+                                <div class="cardImageOuter">
+                                    <div class="cardImage">
+                                        <img src="./docs/images/hub/featured-2.png" alt="" />
+                                    </div>
+                                </div>
+                                <div class="cardText">
+                                    <h3>.NET Core API 참조</h3>
+                                </div>
+                            </div>
                         </div>
-                        <p class="description column-two-thirds">
-Microsoft Azure에 배포 등 ASP.NET Core를 사용하여 확장 가능한 웹앱을 만드는 방법을 알아봅니다.
-                        </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
-                                <a href="https://docs.asp.net">
-                                    <h3>ASP.NET Core</h3>
-                                    <p>ASP.NET Core를 사용하여 웹 사이트 및 서비스를 작성하는 방법을 알아봅니다.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="https://docs.asp.net/en/latest/data">
-                                    <h3>데이터 액세스</h3>
-                                    <p>데이터베이스를 모델링하기 위한 Entity Framework 또는 .NET을 사용하여 SQL Server 및 기타 데이터베이스에 액세스하는 방법을 알아봅니다.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="https://www.visualstudio.com/features/azure-tools-vs">
-                                    <h3>Microsoft Azure</h3>
-                                    <p>Microsoft Azure를 사용하여 응용 프로그램 개발을 시작합니다.</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
-                </li>
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                        <div class="title column-third">
-                            <span class="icon icon-tip"></span>
-                            <p>휴대폰</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://msdn.microsoft.com/en-us/library/mt472912(v=vs.110).aspx">
+                    <div class="cardSize">
+                        <div class="cardPadding">
+                            <div class="card">
+                                <div class="cardImageOuter">
+                                    <div class="cardImage">
+                                        <img src="./docs/images/hub/featured-3.png" alt="" />
+                                    </div>
+                                </div>
+                                <div class="cardText">
+                                    <h3>.NET Framework API 참조</h3>
+                                </div>
+                            </div>
                         </div>
-                        <p class="description column-two-thirds">
-.NET Core 및 Xamarin에서 C#을 사용하여 iOS 및 Android를 개발하는 방법이나 Windows 10 장치에 UWP(유니버설 Windows 플랫폼)를 사용하여 응용 프로그램을 빌드하는 방법에 대해 알아봅니다.
-                        </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
-                                <a href="https://developer.xamarin.com/guides/ios/getting_started/">
-                                    <h3>Android 및 iOS 앱</h3>
-                                    <p>Xamarin을 사용하여 네이티브 iOS 및 Android 응용 프로그램을 빌드하는 방법에 대해 알아봅니다.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="https://developer.microsoft.com/en-us/windows/getstarted">
-                                    <h3>범용 Windows 플랫폼</h3>
-                                    <p>모든 Windows 10 장치에서 실행할 수 있는 Windows 10 UWP 앱을 빌드하는 방법을 알아봅니다.</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
-                </li>
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                        <div class="title column-third">
-                            <span class="icon icon-tip"></span>
-                            <p>바탕 화면</p>
-                        </div>
-                        <p class="description column-two-thirds">
-Windows 및 macOS용 데스크톱 응용 프로그램을 빌드하는 방법에 대해 알아봅니다.
-                        </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
-                                <a href="https://msdn.microsoft.com/library/54xbah2z.aspx">
-                                    <h3>Windows 바탕 화면</h3>
-                                    <p>Windows Forms 또는 WPF(Windows Presentation Framework)를 사용하여 Windows 데스크톱 응용 프로그램을 빌드하는 방법에 대해 알아봅니다.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="https://developer.xamarin.com/guides/cross-platform/macios/">
-                                    <h3>macOS 데스크톱</h3>
-                                    <p>Xamarin을 사용하여 macOS 데스크톱 응용 프로그램을 빌드하는 방법에 대해 알아봅니다.</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
-                </li>
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                        <div class="title column-third">
-                            <span class="icon icon-tip"></span>
-                            <p>게임</p>
-                        </div>
-                        <p class="description column-two-thirds">
-.NET을 사용하여 게임을 빌드하는 방법에 대해 알아봅니다. </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
-                                <a href="http://docs.cryengine.com/display/CEPROG/CE%23+Programming">
-                                    <h3>CRYENGINE</h3>
-                                    <p>CRYENGINE을 사용하여 C#에서 데스크톱, 콘솔 및 모바일용 게임을 빌드합니다.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="http://www.monogame.net/documentation/?page=main">
-                                    <h3>MonoGame</h3>
-                                    <p>MonoGame을 사용하여 C#에서 데스크톱, 콘솔 및 모바일용 게임을 빌드합니다.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="http://docs.unity3d.com/Manual/index.html">
-                                    <h3>Unity</h3>
-                                    <p>Unity를 사용하여 C#에서 데스크톱, 콘솔 및 모바일용 게임을 빌드합니다.</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
-                </li>
-            </ul>
-        </section>
+                    </div>
+                </a>
+            </li>
+        </ul>
     </div>
-</article>
+    <div class="container">
+        <h1>.NET 설명서</h1>
+        <ul class="pivots">
+            <li>
+                <a data-default="true" href="#docs">Docs</a>
+                <ul id="docs">
+                    <li>
+                        <a href="#getstarted">시작</a>
+                        <ul id="getstarted" class="cardsF">
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="./docs/images/hub/net-gs-1.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://docs.microsoft.com/en-us/dotnet/articles/welcome">.NET이란?</a></h3>
+                                                <p><a href="https://www.microsoft.com/net">시작</a></p>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/standard/#a-stroll-through-net">.NET 둘러보기</a></p>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/about/products">.NET 개념</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="./docs/images/hub/net-gs-2.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://docs.microsoft.com/en-us/dotnet/articles/core">.NET Core 가이드</a></h3>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/core/getting-started">시작</a></p>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/core/tutorials">자습서</a></p>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/core/porting">.NET Framework에서 이식</a></p>
+                                                <p><a href="https://docs.asp.net/en/latest/getting-started.html">ASP.NET Core</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="./docs/images/hub/net-gs-3.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://msdn.microsoft.com/en-us/library/zw4w595w(v=vs.110).aspx">.NET Framework 가이드</a></h3>
+                                                <p><a href="https://msdn.microsoft.com/en-us/library/hh425099(v=vs.110).aspx">시작</a></p>
+                                                <p><a href="https://msdn.microsoft.com/en-us/library/hh156542(v=vs.110).aspx">자습서</a></p>
+                                                <p><a href="https://msdn.microsoft.com/en-us/library/54xbah2z(v=vs.110).aspx">클라이언트 개발</a></p>
+                                                <p><a href="https://msdn.microsoft.com/en-us/library/bb400852(v=vs.110).aspx">ASP.NET</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="./docs/images/hub/net-gs-7.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://developer.xamarin.com/guides/cross-platform/getting_started">Xamarin</a></h3>
+                                                <p><a href="https://developer.xamarin.com/guides/cross-platform/getting_started">시작</a></p>
+                                                <p><a href="https://developer.xamarin.com/guides/ios">Xamarin.iOS 가이드</a></p>
+                                                <p><a href="https://developer.xamarin.com/guides/android/getting_started">Xamarin.Android 가이드</a></p>
+                                                <p><a href="https://developer.xamarin.com/guides/xamarin-forms">Xamarin.Forms 가이드</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="./docs/images/hub/net-gs-4.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://docs.microsoft.com/en-us/dotnet/articles/csharp">C# 가이드</a></h3>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/csharp/getting-started">시작</a></p>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/csharp/tour-of-csharp">C 둘러보기#</a></p>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/csharp/concepts">C# 개념</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="./docs/images/hub/net-gs-5.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://docs.microsoft.com/en-us/dotnet/articles/fsharp">F# 가이드</a></h3>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/fsharp/tutorials/getting-started">시작</a></p>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/fsharp/tour">F 둘러보기#</a></p>
+                                                <p><a href="https://docs.microsoft.com/en-us/dotnet/articles/fsharp/language-reference">F# 언어 참조</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="./docs/images/hub/net-gs-6.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://msdn.microsoft.com/en-us/library/2x7h1hfk.aspx">Visual Basic 가이드</a></h3>
+                                                <p><a href="https://msdn.microsoft.com/en-us/library/8hb2a397.aspx">시작</a></p>
+                                                <p><a href="https://msdn.microsoft.com/en-us/library/9a4y3z34.aspx">Visual Basic 둘러보기</a></p>
+                                                <p><a href="https://msdn.microsoft.com/en-us/library/sh9ywfdk.aspx">Visual Basic 언어 참조</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#web">웹</a>
+                        <ul id="web" class="cardsG">
+                            <li>
+                                <a href="https://www.asp.net/get-started">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-web-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>첫 번째 웹앱 빌드</h3>
+                                                    <p>첫 번째 ASP.NET Core 웹앱을 빌드하는 방법을 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/aspnet/core/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-web-2.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>ASP.NET Core 사용</h3>
+                                                    <p>ASP.NET Core를 사용하여 최신 웹앱을 빌드하는 방법을 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.asp.net/learn">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-web-3.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>ASP.NET이란?</h3>
+                                                    <p>ASP.NET 웹 플랫폼에 대해 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-web-4.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Visual Studio의 ASP.NET Core</h3>
+                                                    <p>Visual Studio 2015를 사용하여 ASP.NET Core MVC 웹앱을 빌드하는 기본 사항에 대해 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/dotnet/articles/framework/docker/aspnetmvc">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-web-5.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>컨테이너의 ASP.NET 앱</h3>
+                                                    <p>Docker를 사용하여 ASP.NET 앱을 배포하는 방법을 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/your-first-mac-aspnet">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-web-6.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>macOS의 ASP.NET 및 VS 코드</h3>
+                                                    <p>macOS에서 Visual Studio 코드를 사용하여 ASP.NET Core 앱을 설정, 빌드 및 배포하는 방법을 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#cloud">클라우드</a>
+                        <ul id="cloud" class="cardsG">
+                            <li>
+                                <a href="https://azure.microsoft.com/en-us/develop/net">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-cloud-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>.NET Azure 설명서</h3>
+                                                    <p>Web Apps, WebJobs, Cloud Services 및 VM과 같은 Azure 서비스에 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://azure.microsoft.com/en-us/documentation/articles/cloud-services-dotnet-get-started">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-cloud-2.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure Cloud Services 및 ASP.NET</h3>
+                                                    <p>Azure에서 클라우드 서비스를 구성, 모니터링 및 크기 조정하는 방법에 대해 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/dotnet/articles/fsharp/using-fsharp-on-azure">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-cloud-3.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure에서 F# 사용</h3>
+                                                    <p>F#에서 Azure Storage, Cloud Services 및 Azure Functions와 같은 다양한 Azure 서비스를 사용하는 방법에 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://azure.microsoft.com/en-us/documentation/services/storage/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-cloud-4.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure 저장소</h3>
+                                                    <p>Azure Storage에 대해 알아보고 Azure Blob, 테이블, 큐 및 파일을 사용하여 응용 프로그램을 만드는 방법을 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#mobile">모바일</a>
+                        <ul id="mobile" class="cardsG">
+                            <li>
+                                <a href="https://developer.xamarin.com/guides/ios/getting_started/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-mobile-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Xamarin.iOS</h3>
+                                                    <p>Xamarin.iOS와 함께 C# 및 F#을 사용하여 네이티브 iOS 앱을 만듭니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.xamarin.com/guides/android/getting_started">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-mobile-2.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Xamarin.Android</h3>
+                                                    <p>Xamarin.Android와 함께 C# 및 F#을 사용하여 네이티브 Android 앱을 만듭니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.xamarin.com/guides/xamarin-forms">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-mobile-3.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Xamarin.Forms</h3>
+                                                    <p>Xamarin.Forms와 함께 C# 및 F#을 사용하여 플랫폼 간 모바일 UI를 만듭니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#desktop">데스크톱</a>
+                        <ul id="desktop" class="cardsG">
+                            <li>
+                                <a href="https://msdn.microsoft.com/en-us/library/windows/apps/dn609832.aspx">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-desktop-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>유니버설 Windows 앱</h3>
+                                                    <p>모든 Windows 10 디바이스에서 실행되는 유니버설 Windows 앱을 만드는 방법에 대해 알아봅니다.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://msdn.microsoft.com/library/ms754130.aspx">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-desktop-2.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>WPF(Windows Presentation Foundation)</h3>
+                                                    <p>WPF는 Windows에서 데스크톱 응용 프로그램을 빌드하기 위한 XAML 기반 모델을 개발자에 게 제공합니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://msdn.microsoft.com/library/dd30h2yb.aspx">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-desktop-3.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Windows Forms</h3>
+                                                    <p>Windows 데스크톱용 LOB(기간 업무) 앱을 빠르게 개발합니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.xamarin.com/guides/mac/getting_started">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-desktop-4.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>macOS용 Xamarin</h3>
+                                                    <p>Xamarin과 함께 C# 및 F#을 사용하여 macOS용 앱을 만듭니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#gaming">게임</a>
+                        <ul id="gaming" class="cardsG">
+                            <li>
+                                <a href="https://www.visualstudio.com/vs/game-development">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-gaming-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Visual Studio를 사용한 게임 개발</h3>
+                                                    <p>Visual Studio에서 원하는 게임 엔진을 사용하여 게임을 작성하고 디버그합니다.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://docs.cryengine.com/display/CEPROG/CE%23+Programming">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-gaming-2.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>CRYENGINE</h3>
+                                                    <p>CRYENGINE을 사용하여 C#에서 게임을 빌드하는 방법을 알아봅니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.monogame.net/documentation/?page=main">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-gaming-3.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>MonoGame</h3>
+                                                    <p>MonoGame 라이브러리 설명서 허브에서 자습서와 설정 지침을 통해 C#으로 게임을 빌드합니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.unity3d.com/Manual/index.html">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="./docs/images/hub/net-docs-gaming-4.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Unity</h3>
+                                                    <p>Unity 설명서에서 Unity를 사용하여 C#에서 2D 및 3D 게임을 빌드하는 방법을 알아봅니다.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

@@ -12,15 +12,15 @@ ms.technology: .net-core-technologies
 ms.devlang: dotnet
 ms.assetid: c0d70120-78c8-4d26-bb3c-801f42fc2366
 translationtype: Human Translation
-ms.sourcegitcommit: aeb199a9aeb1584570ad2a2942e2f22c75a59616
-ms.openlocfilehash: c86f277a4c6fd6e6713da2b5f59eb171900190df
+ms.sourcegitcommit: 956a0766fe0171052983627f2cf2e8264d6b0365
+ms.openlocfilehash: e79746734c179c3f7797a10bdcd79606b818afea
 
 ---
 
 # <a name="migrating-from-dnx-to-net-core-cli"></a>DNX에서 .NET Core CLI로 마이그레이션
 
 ## <a name="overview"></a>개요
-Microsoft는 .NET Core 및 ASP.NET Core 1.0의 RC1 릴리스에서 DNX 도구를 발표했습니다. .NET Core 및 ASP.NET Core 1.0의 RC2 릴리스에서 .NET Core CLI로 전환했습니다.
+.NET Core 및 ASP.NET Core 1.0의 RC1 릴리스에서 DNX 도구를 발표했습니다. .NET Core 및 ASP.NET Core 1.0의 RC2 릴리스에서 DNX에서 .NET Core CLI로 전환했습니다.
 
 가볍게 복습하는 의미에서 DNX에 대해 정리해 보겠습니다. DNX는 .NET Core, 좀 더 구체적으로 말해서 ASP.NET Core 1.0 응용 프로그램 빌드에 사용된 런타임 및 도구 집합이었습니다. DNX는 3개의 주요 부분으로 구성되었습니다.
 
@@ -147,6 +147,6 @@ CLI와 DNX는 둘 다 `project.json` 파일 기반의 동일한 기본 프로젝
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 
