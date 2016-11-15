@@ -99,6 +99,6 @@ ASP.NET Core를 학습하는 데 유용한 리소스는 [ASP.NET 사이트](http
 이 자습서에서는 Windows 컨테이너에 기존 콘솔 응용 프로그램을 배포하는 방법을 보여 줍니다. 빌드할 코드의 완성된 버전은 [GitHub의 core-docs 리포지토리](https://github.com/dotnet/docs/tree/master/samples/framework/docker/ConsoleRandomAnswerGenerator)에 있습니다.
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

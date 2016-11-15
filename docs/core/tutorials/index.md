@@ -30,6 +30,6 @@ ms.openlocfilehash: 9ab2f607e8ec5a24712ced5eec688894ca8ae394
 ASP.NET Core 웹 응용 프로그램 개발에 대한 자습서는 [ASP.NET Core 설명서](https://docs.asp.net)를 참조하세요.
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

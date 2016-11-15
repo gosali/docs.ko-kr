@@ -11,8 +11,8 @@ ms.technology: .net-core-technologies
 ms.devlang: dotnet
 ms.assetid: 815ac74c-4bd9-4a94-a87c-78288b27c0e2
 translationtype: Human Translation
-ms.sourcegitcommit: 149086110d7470d97e1ab3e5969269626290b523
-ms.openlocfilehash: 94bae12916fd20f534916d97157605c6a9aa9202
+ms.sourcegitcommit: 352d4a1fe96b701ebf9e0d60d006cfb9ed77977c
+ms.openlocfilehash: e055475200c55c2e2f890ac63b8b258aeacfae75
 
 ---
 
@@ -30,7 +30,7 @@ ms.openlocfilehash: 94bae12916fd20f534916d97157605c6a9aa9202
 > [!NOTE]
 > 개발자는 종종 테스트 클래스 및 메서드에 적합한 이름을 찾으려고 노력합니다. 시작점으로 ASP.NET 제품 팀은 [이러한 규칙](https://github.com/aspnet/Home/wiki/Engineering-guidelines#unit-tests-and-functional-tests)을 따릅니다.
 
-단위 테스트를 작성할 때 실수로 인프라에 대한 종속성이 생성되지 않도록 주의하세요. 이러한 테스트는 속도가 느려지고 불안정해지는 경향이 있으므로 통합 테스트용으로 예약해야 합니다. [명시적 종속성 원칙](http://deviq.com/explicit-dependencies-principle/)을 따르고 [종속성 주입](https://docs.asp.net/en/latest/fundamentals/dependency-injection.html)을 사용하여 프레임워크에서 종속성을 요청하면 응용 프로그램 코드에서 숨겨진 종속성을 방지할 수 있습니다. 또한 단위 테스트를 통합 테스트와 별도의 프로젝트에 유지하고 단위 테스트 프로젝트에 인프라 패키지에 대한 참조나 종속성이 없도록 할 수 있습니다.
+단위 테스트를 작성할 때 실수로 인프라에 대한 종속성이 생성되지 않도록 주의하세요. 이러한 테스트는 속도가 느려지고 불안정해지는 경향이 있으므로 통합 테스트용으로 예약해야 합니다. [명시적 종속성 원칙](http://deviq.com/explicit-dependencies-principle/)을 따르고 [종속성 주입](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)을 사용하여 프레임워크에서 종속성을 요청하면 응용 프로그램 코드에서 숨겨진 종속성을 방지할 수 있습니다. 또한 단위 테스트를 통합 테스트와 별도의 프로젝트에 유지하고 단위 테스트 프로젝트에 인프라 패키지에 대한 참조나 종속성이 없도록 할 수 있습니다.
 
 .NET Core 프로젝트의 단위 테스트에 대한 자세한 내용은 다음을 참조하세요.
 
@@ -40,6 +40,6 @@ XUnit 팀은 [.NET Core 및 Visual Studio에서 xunit을 사용하는 방법](ht
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 
