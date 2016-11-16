@@ -12,8 +12,8 @@ ms.technology: .net-core-technologies
 ms.devlang: dotnet
 ms.assetid: b3cefaa4-0a3f-4a96-aba9-1de30fb07c29
 translationtype: Human Translation
-ms.sourcegitcommit: b20713600d7c3ddc31be5885733a1e8910ede8c6
-ms.openlocfilehash: 3efd30bade564fe1b7dbf93237a9ff40c58c5f1e
+ms.sourcegitcommit: b828bb1d6c8fb750ad9ef34f8a7a1b7d2574f4c6
+ms.openlocfilehash: d5827f8b8ade216a365fd53f9d4547819188fe9b
 
 ---
 
@@ -94,24 +94,24 @@ StringComparison 멤버 | 설명
 
 * 메서드 호출에 대해 기본값을 사용하는 코드의 의도는 분명하지 않습니다. 기본값을 사용하는 다음 예제에서는 개발자가 실제로 두 문자열의 서수 또는 언어 비교를 의도했는지 또는 `protocol`과 "http" 간의 대/소문자 차이로 인해 같음 테스트에서 `false`가 반환될 수 있는지를 잘 알 수 없습니다.
 
-  ```csharp
-  string protocol = GetProtocol(url);       
-  if (String.Equals(protocol, "http", StringComparison.OrdinalIgnoreCase)) {
-     // ...Code to handle HTTP protocol.
-  }
-  else {
-     throw new InvalidOperationException();
-  }
-  ```
+```csharp
+string protocol = GetProtocol(url);       
+if (String.Equals(protocol, "http", StringComparison.OrdinalIgnoreCase)) {
+   // ...Code to handle HTTP protocol.
+}
+else {
+   throw new InvalidOperationException();
+}
+```
 
-  ```vb
-  Dim protocol As String = GetProtocol(url)       
-  If String.Equals(protocol, "http") Then
-    ' ...Code to handle HTTP protocol.
-  Else
-     Throw New InvalidOperationException()
-  End If
-  ```
+```vb
+Dim protocol As String = GetProtocol(url)       
+If String.Equals(protocol, "http") Then
+  ' ...Code to handle HTTP protocol.
+Else
+   Throw New InvalidOperationException()
+End If
+```
 
 일반적으로 기본값을 사용하지 않는 메서드를 사용하면 코드의 의도가 분명해지므로 이 메서드를 호출하는 것이 좋습니다. 이 메서드를 사용하면 코드를 더 쉽게 읽을 수 있고 더 쉽게 디버그 및 유지 관리할 수도 있습니다. 다음 예제에서는 이전 예제와 관련된 질문을 해결합니다. 예제에서는 서수 비교가 사용되고 대/소문자 차이가 무시됩니다. 
 
@@ -1101,6 +1101,6 @@ End Module
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

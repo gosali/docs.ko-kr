@@ -12,8 +12,8 @@ ms.technology: .net-core-technologies
 ms.devlang: dotnet
 ms.assetid: 88a8f8b9-f5c9-4503-b968-84468b52bb8e
 translationtype: Human Translation
-ms.sourcegitcommit: b20713600d7c3ddc31be5885733a1e8910ede8c6
-ms.openlocfilehash: f7ae17ac6dbc23e18d18561d5e5ae7efc037c63e
+ms.sourcegitcommit: b828bb1d6c8fb750ad9ef34f8a7a1b7d2574f4c6
+ms.openlocfilehash: 298d2faf847b8518eb5852c55972409e4e3cf29c
 
 ---
 
@@ -65,65 +65,65 @@ End Module
 
     a. 현재 문화권의 간략화된 요일 이름을 추출하려면 날짜 및 시간 값의 [DateTime.ToString(String)](xref:System.DateTimeSystem.DateTime.ToString(System.String) 또는 [DateTimeOffset.ToString(String)](xref:System.DateTimeOffset.ToString(System.String)) 인스턴스 메서드를 호출하고 문자열 "ddd"를 *format* 매개 변수로 전달합니다. 다음 예제에서는 `ToString(String)` 메서드를 호출하는 방법을 보여 줍니다.
     
-    ```csharp
-    using System;
+```csharp
+using System;
 
-    public class Example
-    {
-       public static void Main()
-       {
-          DateTime dateValue = new DateTime(2008, 6, 11);
-          Console.WriteLine(dateValue.ToString("ddd"));   
-       }
-    }
-    // The example displays the following output:
-    //       Wed
-    ```
+public class Example
+{
+   public static void Main()
+   {
+  DateTime dateValue = new DateTime(2008, 6, 11);
+  Console.WriteLine(dateValue.ToString("ddd"));   
+   }
+}
+// The example displays the following output:
+//       Wed
+```
 
-    ```vb
-    Module Example
-       Public Sub Main()
-          Dim dateValue As Date = #6/11/2008#
-          Console.WriteLine(dateValue.ToString("ddd"))    
-       End Sub
-    End Module
-    ' The example displays the following output:
-    '       Wed
-    ```
+```vb
+Module Example
+   Public Sub Main()
+  Dim dateValue As Date = #6/11/2008#
+      Console.WriteLine(dateValue.ToString("ddd"))    
+   End Sub
+End Module
+' The example displays the following output:
+'       Wed
+```
+
+    b. To extract the abbreviated weekday name for a specific culture, call the date and time value’s [DateTime.ToString(String, IFormatProvider)](xref:System.DateTime.ToString(System.String,System.IFormatProvider)) or [DateTimeOffset.ToString(String, IFormatProvider)](xref:System.DateTimeOffset.ToString(System.String,System.IFormatProvider)) instance method. Pass the string "ddd" as the *format* parameter. Pass either a [CultureInfo](xref:System.Globalization.CultureInfo) or a [DateTimeFormatInfo](xref:System.Globalization.DateTimeFormatInfo) object that represents the culture whose weekday name you want to retrieve as the *provider* parameter. The following code illustrates a call to the [ToString(String, IFormatProvider)](xref:System.DateTime.ToString(System.String,System.IFormatProvider)) method using a [CultureInfo](xref:System.Globalization.CultureInfo) object that represents the fr-FR culture.
     
-    b. 특정 문화권의 간략화된 요일 이름을 추출하려면 날짜 및 시간 값의 [DateTime.ToString(String, IFormatProvider)](xref:System.DateTime.ToString(System.String,System.IFormatProvider)) 또는 [DateTimeOffset.ToString(String, IFormatProvider)](xref:System.DateTimeOffset.ToString(System.String,System.IFormatProvider)) 인스턴스 메서드를 호출합니다. 문자열 "ddd"를 *format* 매개 변수로 전달합니다. [CultureInfo](xref:System.Globalization.CultureInfo) 또는 요일 이름을 *provider* 매개 변수로 검색하려는 문화권을 나타내는 [DateTimeFormatInfo](xref:System.Globalization.DateTimeFormatInfo) 개체를 전달합니다. 다음 코드에서는 fr-FR 문화권을 나타내는 [CultureInfo](xref:System.Globalization.CultureInfo) 개체를 사용한 [ToString(String, IFormatProvider)](xref:System.DateTime.ToString(System.String,System.IFormatProvider)) 메서드 호출을 보여 줍니다.
-    
-    ```csharp
-    using System;
-    using System.Globalization;
+```csharp
+using System;
+using System.Globalization;
 
-    public class Example
-    {
+public class Example
+{
     public static void Main()
     {
         DateTime dateValue = new DateTime(2008, 6, 11);
         Console.WriteLine(dateValue.ToString("ddd", 
                             new CultureInfo("fr-FR")));    
     }
-    }
-    // The example displays the following output:
-    //       mer. 
-    ```
+}
+// The example displays the following output:
+//       mer. 
+```
 
-    ```vb
-    Imports System.Globalization
+```vb
+Imports System.Globalization
 
-    Module Example
-       Public Sub Main()
-          Dim dateValue As Date = #6/11/2008#
-          Console.WriteLine(dateValue.ToString("ddd", 
-                            New CultureInfo("fr-FR")))    
-       End Sub
-    End Module
-    ' The example displays the following output:
-    '       mer.
-    ```
-    
+Module Example
+   Public Sub Main()
+      Dim dateValue As Date = #6/11/2008#
+      Console.WriteLine(dateValue.ToString("ddd", 
+                        New CultureInfo("fr-FR")))
+   End Sub
+End Module
+' The example displays the following output:
+'       mer.
+```
+
 ## <a name="to-extract-the-full-weekday-name-from-a-specific-date"></a>특정 날짜에서 전체 요일 이름을 추출하려면
 
 1. 날짜의 문자열 표현으로 작업하는 경우 정적 [DateTime.Parse](xref:System.DateTime.Parse(System.String)) 또는 [DateTimeOffset.Parse](xref:System.DateTimeOffset.Parse(System.String)) 메서드를 사용하여 [DateTime](xref:System.DateTime) 또는 [DateTimeOffset](xref:System.DateTimeOffset) 값으로 변환합니다.
@@ -131,66 +131,66 @@ End Module
 2. 현재 문화권 또는 특정 문화권의 간략화된 요일 이름을 추출할 수 있습니다.
 
     a. 현재 문화권의 간략화된 요일 이름을 추출하려면 날짜 및 시간 값의 [DateTime.ToString(String)](xref:System.DateTimeSystem.DateTime.ToString(System.String) 또는 [DateTimeOffset.ToString(String)](xref:System.DateTimeOffset.ToString(System.String)) 인스턴스 메서드를 호출하고 문자열 "dddd"를 *format* 매개 변수로 전달합니다. 다음 예제에서는 `ToString(String)` 메서드를 호출하는 방법을 보여 줍니다.
-    
-    ```csharp
-    using System;
 
-    public class Example
-    {
+```csharp
+using System;
+
+public class Example
+{
     public static void Main()
     {
         DateTime dateValue = new DateTime(2008, 6, 11);
         Console.WriteLine(dateValue.ToString("dddd"));    
     }
-    }
-    // The example displays the following output:
-    //       Wednesday
-    ```
+}
+// The example displays the following output:
+//       Wednesday
+```
 
-    ```vb
-    Module Example
-       Public Sub Main()
-          Dim dateValue As Date = #6/11/2008#
-          Console.WriteLine(dateValue.ToString("dddd"))
-       End Sub
-    End Module
-    ' The example displays the following output:
-    '       Wednesday
-    ```
-    
-    b. 특정 문화권의 요일 이름을 추출하려면 날짜 및 시간 값의 [DateTime.ToString(String, IFormatProvider)](xref:System.DateTime.ToString(System.String,System.IFormatProvider)) 또는 [DateTimeOffset.ToString(String, IFormatProvider)](xref:System.DateTimeOffset.ToString(System.String,System.IFormatProvider)) 인스턴스 메서드를 호출합니다. 문자열 "dddd"를 *format* 매개 변수로 전달합니다. [CultureInfo](xref:System.Globalization.CultureInfo) 또는 요일 이름을 *provider* 매개 변수로 검색하려는 문화권을 나타내는 [DateTimeFormatInfo](xref:System.Globalization.DateTimeFormatInfo) 개체를 전달합니다. 다음 코드에서는 es-ES 문화권을 나타내는 [CultureInfo](xref:System.Globalization.CultureInfo) 개체를 사용한 [ToString(String, IFormatProvider)](xref:System.DateTime.ToString(System.String,System.IFormatProvider)) 메서드 호출을 보여 줍니다.
-    
-    ```csharp
-    using System;
-    using System.Globalization;
+```vb
+Module Example
+   Public Sub Main()
+      Dim dateValue As Date = #6/11/2008#
+      Console.WriteLine(dateValue.ToString("dddd"))
+   End Sub
+End Module
+' The example displays the following output:
+'       Wednesday
+```
 
-    public class Example
-    {
+    b. To extract the weekday name for a specific culture, call the date and time value’s [DateTime.ToString(String, IFormatProvider)](xref:System.DateTime.ToString(System.String,System.IFormatProvider)) or [DateTimeOffset.ToString(String, IFormatProvider)](xref:System.DateTimeOffset.ToString(System.String,System.IFormatProvider)) instance method. Pass the string "dddd" as the *format* parameter. Pass either a [CultureInfo](xref:System.Globalization.CultureInfo) or a [DateTimeFormatInfo](xref:System.Globalization.DateTimeFormatInfo) object that represents the culture whose weekday name you want to retrieve as the *provider* parameter. The following code illustrates a call to the [ToString(String, IFormatProvider)](xref:System.DateTime.ToString(System.String,System.IFormatProvider)) method using a [CultureInfo](xref:System.Globalization.CultureInfo) object that represents the es-ES  culture.
+
+```csharp
+using System;
+using System.Globalization;
+
+public class Example
+{
     public static void Main()
     {
         DateTime dateValue = new DateTime(2008, 6, 11);
         Console.WriteLine(dateValue.ToString("dddd", 
                             new CultureInfo("es-ES")));    
     }
-    }
-    // The example displays the following output:
-    //       miércoles.
-    ```
+}
+// The example displays the following output:
+//       miércoles.
+```
 
-    ```vb
-    Imports System.Globalization
+```vb
+Imports System.Globalization
 
-    Module Example
-       Public Sub Main()
-          Dim dateValue As Date = #6/11/2008#
-          Console.WriteLine(dateValue.ToString("dddd", _
-                            New CultureInfo("es-ES")))     
-       End Sub
-    End Module
-    ' The example displays the following output:
-    '       miércoles.
-    ```
-    
+Module Example
+   Public Sub Main()
+      Dim dateValue As Date = #6/11/2008#
+      Console.WriteLine(dateValue.ToString("dddd", _
+                        New CultureInfo("es-ES"))) 
+   End Sub
+End Module
+' The example displays the following output:
+'       miércoles.
+```
+
 ## <a name="example"></a>예제
 
 이 예제에서는 특정 날짜의 요일, 간략화된 요일 이름 및 전체 요일 이름을 나타내는 숫자를 검색하기 위한 [Datetime.DayOfWeek](xref:System.DateTime.DayOfWeek) 및 [DateTimeOffset.DayOfWeek](xref:System.DateTimeOffset.DayOfWeek) 속성과 [DateTime.ToString(String)](xref:System.DateTime.ToString(System.String) 또는 [DateTimeOffset.ToString(String)](xref:System.DateTimeOffset.ToString(System.String)) 메서드 호출을 보여 줍니다. 
@@ -479,6 +479,6 @@ End Module
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

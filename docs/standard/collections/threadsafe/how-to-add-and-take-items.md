@@ -11,14 +11,14 @@ ms.technology: .net-core-technologies
 ms.devlang: dotnet
 ms.assetid: 2b9d39ab-0993-4453-b021-b04870098bf7
 translationtype: Human Translation
-ms.sourcegitcommit: c15f2da15c6448cf1c36dea2d5fd53e734bb6608
-ms.openlocfilehash: 4f73f3bf2000a0ff4cd600d72bb161206a58d23a
+ms.sourcegitcommit: b828bb1d6c8fb750ad9ef34f8a7a1b7d2574f4c6
+ms.openlocfilehash: 2475ccb7409285a80a92abc378023944b9e263fe
 
 ---
 
 # <a name="how-to-add-and-take-items-individually-from-a-blockingcollection"></a>방법: BlockingCollection에서 개별적으로 항목 추가 및 가져오기
 
-이 예제에서는 차단 및 비차단 방식으로 [BlockingCollection&lt;T&gt;]( https://docs.microsoft.com/dotnet/core/api/System.Collections.Concurrent.BlockingCollection-1)에서 항목을 추가하고 제거하는 방법을 보여 줍니다. `BlockingCollection<T>`에 대한 자세한 내용은 [BlockingCollection 개요](blockingcollection-overview.md)를 참조하십시오. 
+이 예제에서는 차단 및 비차단 방식으로 [BlockingCollection&lt;T&gt;](https://docs.microsoft.com/dotnet/core/api/System.Collections.Concurrent.BlockingCollection-1)에서 항목을 추가하고 제거하는 방법을 보여 줍니다. `BlockingCollection<T>`에 대한 자세한 내용은 [BlockingCollection 개요](blockingcollection-overview.md)를 참조하십시오. 
 
 빈 상태가 되고 요소가 더 이상 추가되지 않을 때까지 `BlockingCollection<T>`를 열거하는 방법에 대한 예제는 [방법: ForEach를 사용하여 BlockingCollection 항목 제거](how-to-use-foreach-to-remove.md)를 참조하십시오.
 
@@ -218,12 +218,12 @@ class ProgramWithCancellation
 
 ## <a name="see-also"></a>참고 항목
 
-[System.Collections.Concurrent]( https://docs.microsoft.com/dotnet/core/api/System.Collections.Concurrent)
+[System.Collections.Concurrent](https://docs.microsoft.com/dotnet/core/api/System.Collections.Concurrent)
 
 [BlockingCollection 개요](blockingcollection-overview.md)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 
