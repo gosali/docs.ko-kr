@@ -1,5 +1,6 @@
 ---
 layout: HubPage
+hide_bc: true
 title: ".NET 설명서"
 description: 
 keywords: 
@@ -13,8 +14,8 @@ ms.technology:
 ms.suite: 
 ms.assetid: 
 translationtype: Human Translation
-ms.sourcegitcommit: 11f0979ab18b708fb775a54736ecd06f388557cf
-ms.openlocfilehash: 1c9bafe53583478b382e3e068150f1e692664c48
+ms.sourcegitcommit: a78076dc6e6663b56594057c3cae9e8123c6c986
+ms.openlocfilehash: 3360b18bd1d5d6dde6078c7d695349e0224ef794
 
 ---
 <div id="main" class="v2">
@@ -655,7 +656,6 @@ ms.openlocfilehash: 1c9bafe53583478b382e3e068150f1e692664c48
         </ul>
     </div>
 </div>
-
 
 
 <!--HONumber=Nov16_HO3-->
