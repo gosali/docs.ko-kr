@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 1e38f9d9-8f84-46ee-a15f-199aec4f2e34
 translationtype: Human Translation
 ms.sourcegitcommit: de0dab146fc811e895dc32f98f877db5e757f82b
-ms.openlocfilehash: 6536a608a4ee1bb10f41907a28114193a300a52c
+ms.openlocfilehash: c8ff0f81054feddb4ee7042926c817de525034f9
 
 ---
 
@@ -148,6 +148,6 @@ public async Task<int> CalculateResult(InputData data)
 `async` 및 `await`는 응답성이 필요할 때 CPU 바인딩된 작업을 관리하는 모범 사례입니다. CPU 바인딩된 작업에 비동기를 사용하는 여러 가지 패턴이 있습니다. 비동기 사용 시 작은 비용이 발생하며 타이트 루프에는 권장되지 않습니다.  이 새로운 기능과 관련된 코드 작성 방법은 사용자가 결정할 사항입니다.
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

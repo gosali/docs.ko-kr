@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.assetid: 3aef32bd-ee2a-4e24-80f8-a2b615e0336d
 translationtype: Human Translation
 ms.sourcegitcommit: b20713600d7c3ddc31be5885733a1e8910ede8c6
-ms.openlocfilehash: f870dc601a1df5dd663cd165bc19f70df9aa57f4
+ms.openlocfilehash: ce3dbad938c01fd0f9d79cefb29884be986b8e1f
 
 ---
 
@@ -1656,6 +1656,6 @@ DLL 파일 래핑에 사용됩니다. 이 DLL이 포함된 패키지를 생성�
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

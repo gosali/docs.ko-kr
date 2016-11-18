@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: c9f1d52c-b4bd-4b5d-b7f9-8f9ceaf778c4
 translationtype: Human Translation
 ms.sourcegitcommit: 15c55a87beb64f265a164db918c7721c7690fadf
-ms.openlocfilehash: bde267042883d2f25848747047845a16b181e549
+ms.openlocfilehash: 3e8a8a953cbb3dde6ddf386f8c3b3a1fd4c549f1
 
 ---
 
@@ -181,6 +181,6 @@ docker rm randomanswers
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

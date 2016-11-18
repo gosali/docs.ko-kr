@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 1f3b9a68-4dea-4b60-8cb3-f46164eedbbf
 translationtype: Human Translation
 ms.sourcegitcommit: 03193513706967a46f74bccdba08a56946dd67df
-ms.openlocfilehash: f2792154a2f231fffc8e6f79c32b96e05edc71fa
+ms.openlocfilehash: 274402bbd254e97d88771675daf07995983914aa
 
 ---
 
@@ -126,6 +126,6 @@ microsoft/aspnetcore       1.0.1               189ad4312ce7        5 days ago   
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

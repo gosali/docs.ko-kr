@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 2dd84ee8-9f0f-4054-9537-155857a460cd
 translationtype: Human Translation
 ms.sourcegitcommit: c40c28da09e8a122b542463c197196c82c81dd19
-ms.openlocfilehash: e5b709cb82c680edf454d0a8fc9ff27e6d26c138
+ms.openlocfilehash: f8a603bab32afd0b8e7d13c9c5755e3f14a9d2bd
 
 ---
 
@@ -356,6 +356,6 @@ End Module
 [날짜, 시간 및 표준 시간대](index.md)
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

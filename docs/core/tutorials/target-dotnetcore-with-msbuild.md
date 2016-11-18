@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 13c66464-4f14-4db6-aa8b-06f25e7ba894
 translationtype: Human Translation
 ms.sourcegitcommit: a04755da6417bb28bad5f28a18ead9feeba2d957
-ms.openlocfilehash: 5d37e78be88828d6c82777f96b6334903aecbe53
+ms.openlocfilehash: ee8f409bf11f4b4a7136b886114616b233bc2cc0
 
 ---
 
@@ -130,6 +130,6 @@ Visual Studio에서 프로젝트를 만드는 것으로 시작한 다음 이를 
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

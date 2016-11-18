@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 8ad82148-dac8-4b31-9128-b0e9610f4d9b
 translationtype: Human Translation
 ms.sourcegitcommit: 2339be6aef7e2ff942f1f1999a12f48ee4a77ee8
-ms.openlocfilehash: 12b7bed380db53aad04f0615c6efa6152b3035b7
+ms.openlocfilehash: b9d53f32347572614a67e1cc432089f8e18d7cdf
 
 ---
 
@@ -248,6 +248,6 @@ Windows에서 실행 중인 경우 이식 가능한 PDB 파일을 생성하려�
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

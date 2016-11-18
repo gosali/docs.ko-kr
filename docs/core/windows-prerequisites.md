@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: c33b1241-ab66-4583-9eba-52cf51146f5a
 translationtype: Human Translation
 ms.sourcegitcommit: 130b94a745b0e3222e205d8af26194239130ec9c
-ms.openlocfilehash: 04018ec65272745ef98a2a96eb30009bcf44cb2e
+ms.openlocfilehash: 2e6483b3f1b8b9e1f36a0f4f7377319871fd5674
 
 ---
 
@@ -81,6 +81,6 @@ NuGet은 .NET Core를 포함한 Microsoft 개발 플랫폼에 대한 패키지 �
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

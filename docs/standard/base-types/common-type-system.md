@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.assetid: b5482a1d-7bdc-40fe-aa45-10df930ceb5b
 translationtype: Human Translation
 ms.sourcegitcommit: b20713600d7c3ddc31be5885733a1e8910ede8c6
-ms.openlocfilehash: 7d7f869b07d7cf00ffa69da117aa199d1b6e8f20
+ms.openlocfilehash: 35098ce238af88229fddf2adc7cf762848781ebc
 
 ---
 
@@ -535,6 +535,6 @@ virtual | 메서드, 속성 및 이벤트 | 메서드는 파생된 형식에서 
 [.NET Framework의 형식 변환](type-conversion.md)
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

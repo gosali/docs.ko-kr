@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.assetid: 609b0845-49e7-4864-957b-21ffe1b93bf2
 translationtype: Human Translation
 ms.sourcegitcommit: cb2e83b35b5a4aae14c89bcbdf26b064885a477a
-ms.openlocfilehash: af6c83755068cc311b59c1a337898c177cc6d537
+ms.openlocfilehash: 6b5bb7042fdaa453966a4fc576291b3c90ee5410
 
 ---
 
@@ -188,6 +188,6 @@ project.json의 프레임워크 및 메타패키지 참조는 일치하지 않�
 다른 `netstandard` 라이브러리에서 종속성을 충족하는 경우 `Microsoft.NETCore.App`에서 제공하는 추가 라이브러리 대부분은 또한 `netstandard`를 대상으로 합니다. 즉, `netstandard` 라이브러리 역시 해당 패키지를 종속성으로 참조할 수 있습니다. 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 
