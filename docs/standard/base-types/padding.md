@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 1c8b3b44-d370-49e1-90b5-64ac81c02ae91c8b3b44-d370-49e1-90b5-64ac81c02ae9
 translationtype: Human Translation
 ms.sourcegitcommit: fb00da6505c9edb6a49d2003ae9bcb8e74c11d6c
-ms.openlocfilehash: 73452c1f432fb8cb50a36e739fb91962693f8e51
+ms.openlocfilehash: b6c5d4c8a35aebdfca88801118cdeba25c0a7e65
 
 ---
 
@@ -64,6 +64,6 @@ Console.WriteLine(MyString.PadRight(20, "-"c))
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

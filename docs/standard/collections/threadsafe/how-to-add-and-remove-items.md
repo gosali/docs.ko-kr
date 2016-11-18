@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: b7c04a5f-a8e6-42ae-8c84-0e1ae18896eb
 translationtype: Human Translation
 ms.sourcegitcommit: c15f2da15c6448cf1c36dea2d5fd53e734bb6608
-ms.openlocfilehash: 90ad4f1f0266d948937ed462be15a4d4948ce7f8
+ms.openlocfilehash: 3e99bcb1cfbcf0a4f6f372e481d41ec31d635749
 
 ---
 
@@ -304,6 +304,6 @@ namespace DictionaryHowTo
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

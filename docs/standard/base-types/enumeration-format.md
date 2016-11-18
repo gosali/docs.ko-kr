@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 4d581898-99bc-42c3-816c-d8238f45096f
 translationtype: Human Translation
 ms.sourcegitcommit: fb00da6505c9edb6a49d2003ae9bcb8e74c11d6c
-ms.openlocfilehash: 8cb811636ca2c7b207f7661e990567b5785bc994
+ms.openlocfilehash: 9f5b60a75bf4b92b88d249be2f95f312ddb6909c
 
 ---
 
@@ -161,6 +161,6 @@ Console.WriteLine("The value of myColor is 0x{0}.", _
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

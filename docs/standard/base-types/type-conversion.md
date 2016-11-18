@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.assetid: c9a53222-89cb-47e5-983d-4f0f204e31ba
 translationtype: Human Translation
 ms.sourcegitcommit: b20713600d7c3ddc31be5885733a1e8910ede8c6
-ms.openlocfilehash: ba4a356921cb43b88d3ad8e6ef7487699f442385
+ms.openlocfilehash: 9f3f0dc381f8892dfb24d027ccc1f46a9b89135a
 
 ---
 
@@ -1228,6 +1228,6 @@ TypeConverter를 사용한 변환 | IConvertible를 사용한 변환
 [형식 변환표](conversion-tables.md)
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

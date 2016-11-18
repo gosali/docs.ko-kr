@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 9b184114-6612-4c1a-a2db-2e24e65b0f77
 translationtype: Human Translation
 ms.sourcegitcommit: fb00da6505c9edb6a49d2003ae9bcb8e74c11d6c
-ms.openlocfilehash: 926195e48e9653525a502cf9403ae9c205bd0fe3
+ms.openlocfilehash: bb62bdd03d4af4f764ac3bc8734c67902fffa798
 
 ---
 
@@ -247,6 +247,6 @@ End If
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

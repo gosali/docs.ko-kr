@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: fe2e4b4c-6483-4106-a4b4-a33e2e306591
 translationtype: Human Translation
 ms.sourcegitcommit: 9cf6022fc910bc5418c03c0fa81d9432d85be3b0
-ms.openlocfilehash: 0d1dfc333f16acad44b1e276b75ff3c65a77e5aa
+ms.openlocfilehash: 7e9bb11db4b3586639a0447737db9cd376898325
 
 ---
 
@@ -163,6 +163,6 @@ public MainWindow()
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

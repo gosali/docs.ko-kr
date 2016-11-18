@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.assetid: be239871-10cc-4949-b548-200bb260630a
 translationtype: Human Translation
 ms.sourcegitcommit: b20713600d7c3ddc31be5885733a1e8910ede8c6
-ms.openlocfilehash: 1196459d74038edb1268c619dac3da69f38e7860
+ms.openlocfilehash: 56da9671a0849b0f0a94d8881cdc28e70bcf8549
 
 ---
 
@@ -752,6 +752,6 @@ Console.WriteLine(date1.ToString("y", CultureInfo.CreateSpecificCulture("af-ZA")
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: c7b7c005-628d-427a-91ad-af0c3958c00e
 translationtype: Human Translation
 ms.sourcegitcommit: e07788926a995b41571be276379ad9285747951d
-ms.openlocfilehash: de1fe3bb9b9a75561b4f28ec4609491d6f3c39f5
+ms.openlocfilehash: bad7fd4e9cda1976a31f287d7c95d81d113a30fa
 
 ---
 
@@ -203,6 +203,6 @@ public class Example
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

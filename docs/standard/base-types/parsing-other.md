@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 67670b10-3df4-45ea-8908-5ba3f056887c
 translationtype: Human Translation
 ms.sourcegitcommit: fb00da6505c9edb6a49d2003ae9bcb8e74c11d6c
-ms.openlocfilehash: 3f26670dc9f4c6b6608599793352445d5665cf64
+ms.openlocfilehash: bf3fc05428ed491e7658951f002a9af17dcba5df
 
 ---
 
@@ -85,6 +85,6 @@ Console.WriteLine("{0:G}", MyDays)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

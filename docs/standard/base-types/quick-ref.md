@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.assetid: 8c5dee8c-7bc7-4e6e-aff1-986965c4d98e
 translationtype: Human Translation
 ms.sourcegitcommit: b20713600d7c3ddc31be5885733a1e8910ede8c6
-ms.openlocfilehash: ff1eef78985f9b5b428f3b696fb267b59f3cb283
+ms.openlocfilehash: f4319de43043605da63f469b59a5dfdb28badc8e
 
 ---
 
@@ -224,6 +224,6 @@ __(?(__*expression*__)__*yes*__&#124;__*no*__)__ | *expression*으로 지정한 
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

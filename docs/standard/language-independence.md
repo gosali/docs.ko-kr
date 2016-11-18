@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.assetid: 2dbed1bc-86f5-43cd-9a57-adbb1c5efba4
 translationtype: Human Translation
 ms.sourcegitcommit: b20713600d7c3ddc31be5885733a1e8910ede8c6
-ms.openlocfilehash: 47a407d1c1e768a027aaca63ee7a668e992467b2
+ms.openlocfilehash: 1458cfdb81c53b7eab384c1b7f3e65c7ad7d8098
 
 ---
 
@@ -2956,6 +2956,6 @@ csc example.cs /r:UtilityLib.dll
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

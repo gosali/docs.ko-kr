@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: c044882c-af15-45f2-96d1-534557a5ee9b
 translationtype: Human Translation
 ms.sourcegitcommit: f9ffbb2e300df2080276096095a7269736260ba1
-ms.openlocfilehash: ff61319f15fea4c838517ed209e8095b37186c2e
+ms.openlocfilehash: d56ddc264d861081f0b808711cccd489a374c0b8
 
 ---
 
@@ -134,6 +134,6 @@ NuGet 패키지는 하나 이상의 [프레임워크](frameworks.md)를 대상�
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

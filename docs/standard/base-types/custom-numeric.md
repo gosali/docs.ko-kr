@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.assetid: 7b1c16ee-956f-4e9c-8502-c3dd6598c51d
 translationtype: Human Translation
 ms.sourcegitcommit: b20713600d7c3ddc31be5885733a1e8910ede8c6
-ms.openlocfilehash: e36c0117f6f011589299fa59a8abd139870c2257
+ms.openlocfilehash: 2d5a051efd074d02f2a5e9ff03c11e1d9a202d7f
 
 ---
 
@@ -651,6 +651,6 @@ Console.WriteLine(value2)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

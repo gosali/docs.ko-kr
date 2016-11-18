@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: bf116df6-0042-46bf-be13-b69864816210
 translationtype: Human Translation
 ms.sourcegitcommit: 9584699ad7e745ae3cb059b1bb8327301c9a3286
-ms.openlocfilehash: 0c73fb0a12092877ff5b54221f4a80693d1d1152
+ms.openlocfilehash: 5271b63a47aa2fcc81cd9c8b1ffd22e618829412
 
 ---
 
@@ -509,6 +509,6 @@ catch (Exception ex)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

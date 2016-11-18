@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 6b8696be-55f5-4b66-98f3-69ff827c2c49
 translationtype: Human Translation
 ms.sourcegitcommit: d5c7a18af16b4f3416e84b6cf86f0f78f28948da
-ms.openlocfilehash: 6d14668e643c2451f4ace2119006f442ed4dee15
+ms.openlocfilehash: 2930bf6879df3cd16cbd0221ae6dfcba9b41de2e
 
 ---
 
@@ -77,6 +77,6 @@ ms.openlocfilehash: 6d14668e643c2451f4ace2119006f442ed4dee15
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

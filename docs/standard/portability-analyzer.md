@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.assetid: 0375250f-5704-4993-a6d5-e21c499cea1e
 translationtype: Human Translation
 ms.sourcegitcommit: 8599be1eadcd6f005ef344bf173e8c06fce80725
-ms.openlocfilehash: 479b141159de95c6a7e466220f935f9371b353db
+ms.openlocfilehash: 9e35fd4dff15cec688ee11f98682eb7cb96e9403
 
 ---
 
@@ -52,6 +52,6 @@ Visual Studio를 사용하고 싶지 않으신가요? 명령 프롬프트에서 
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

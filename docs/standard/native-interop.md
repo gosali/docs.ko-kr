@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 3c357112-35fb-44ba-a07b-6a1c140370ac
 translationtype: Human Translation
 ms.sourcegitcommit: 3aeaba5c8cf800c652941b5e6c2bc9f072849893
-ms.openlocfilehash: 0d7415b10d6f247c30b3da508eb8fc9e0007f824
+ms.openlocfilehash: 36041eda54290484741c375ae776b7bf1a74d7a1
 
 ---
 
@@ -353,6 +353,6 @@ public class StatClass {
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

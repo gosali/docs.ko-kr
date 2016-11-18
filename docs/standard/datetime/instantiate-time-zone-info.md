@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: bff137e5-d550-44c3-b460-b3f2dabd4035
 translationtype: Human Translation
 ms.sourcegitcommit: c40c28da09e8a122b542463c197196c82c81dd19
-ms.openlocfilehash: 5af479c40bb5db3213f45c0472dbdea99bbd5c21
+ms.openlocfilehash: 1c619cf6bd150e009367b43d1d83fa1713ec2690
 
 ---
 
@@ -111,6 +111,6 @@ End
 [로컬 시스템에 정의된 표준 시간대 찾기](finding-the-time-zones-on-local-system.md)
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

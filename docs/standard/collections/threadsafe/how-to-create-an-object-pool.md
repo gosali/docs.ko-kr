@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 87a6ada1-ee27-423d-b587-82e7cb45361b
 translationtype: Human Translation
 ms.sourcegitcommit: 2f8dede4c6f679466e8441b29cf778dc46059196
-ms.openlocfilehash: cf16330afe6b8415c3480322069e88132bef1082
+ms.openlocfilehash: 2633a1665e7337cf7d324016a0da6386a777e4a3
 
 ---
 
@@ -123,6 +123,6 @@ namespace ObjectPoolExample
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

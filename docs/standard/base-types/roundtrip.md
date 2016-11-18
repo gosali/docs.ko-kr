@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 15690f18-1bb9-4bb8-bc11-0b737e2f0859
 translationtype: Human Translation
 ms.sourcegitcommit: fb00da6505c9edb6a49d2003ae9bcb8e74c11d6c
-ms.openlocfilehash: 00a09c8a60138a1828d4e8c62dd72b88abbf4bbe
+ms.openlocfilehash: b4bf747faff171e4a90a897e5f7ef442012e7699
 
 ---
 
@@ -179,6 +179,6 @@ Console.WriteLine("Read {0} from {1}.", restoredDateOff.ToString(), fileName)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

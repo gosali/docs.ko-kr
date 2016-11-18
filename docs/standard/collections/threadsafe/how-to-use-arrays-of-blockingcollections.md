@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 278a6566-09ba-4022-8802-e160e75b86af
 translationtype: Human Translation
 ms.sourcegitcommit: c15f2da15c6448cf1c36dea2d5fd53e734bb6608
-ms.openlocfilehash: e68ad58fecfe489cc26af02be7e4dbb4f7a8470c
+ms.openlocfilehash: 4f637ea8985a2be9fc22b5ede88fc625864046dc
 
 ---
 
@@ -200,6 +200,6 @@ class PipeLineDemo
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

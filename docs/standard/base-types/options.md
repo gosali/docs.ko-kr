@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.assetid: 2db2c3e6-953e-4913-8168-d707c437f2df
 translationtype: Human Translation
 ms.sourcegitcommit: b20713600d7c3ddc31be5885733a1e8910ede8c6
-ms.openlocfilehash: 21672e28d0e76b98f6dac698096fccb2ce4edd03
+ms.openlocfilehash: a2a9fe356a0b2e9cf9415714bc01b77ea86229fc
 
 ---
 
@@ -1667,6 +1667,6 @@ Thread.CurrentThread.CurrentCulture = defaultCulture
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

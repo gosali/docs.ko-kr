@@ -12,7 +12,7 @@ ms.devlang: dotnet
 ms.assetid: 920ee5e8-3d61-4941-b5af-fc50eaee427c
 translationtype: Human Translation
 ms.sourcegitcommit: fb00da6505c9edb6a49d2003ae9bcb8e74c11d6c
-ms.openlocfilehash: 10c9ea3ebb50e8d8075d8a4e4ce007ddc29ff412
+ms.openlocfilehash: 2ad585bd5475cf39aeae5dadc9ce3864c501a205
 
 ---
 
@@ -220,6 +220,6 @@ Console.WriteLine(string1.LastIndexOf("l"))
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 
